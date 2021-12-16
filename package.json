@@ -16,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/jaznyc/Next.js_Intro/issues"
   },
-  "homepage": "https://github.com/jaznyc/Next.js_Intro#readme"
+  "homepage": "https://github.com/jaznyc/Next.js_Intro#readme",
+  "dependencies": {
+    "@theme-ui/presets": "^0.12.1",
+    "body-parser": "^1.19.1",
+    "dotenv-load": "^2.0.0",
+    "next-connect": "^0.11.0",
+    "next-env": "^1.1.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "theme-ui": "^0.12.1"
+  }
 }
