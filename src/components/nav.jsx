@@ -1,4 +1,5 @@
-import React from 'react'
+/** @jsxRuntime classic */
+/** @jsx jsx */
 import { jsx } from 'theme-ui'
 import Link from 'next/link'
 
