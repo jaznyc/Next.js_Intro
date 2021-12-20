@@ -1,5 +1,11 @@
-export default (req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'application/json');
-  res.end(JSON.stringify({ message: 'hello' }));
-};
+import nc from 'next-connect';
+
+const handler = nc()
+  .get((req, res) => {
+    res.json({ message: 'all good' });
+  })
+  .post((req, res) => {
+    res.json({ message: 'posted something' });
+  });
+
+export default handler;
